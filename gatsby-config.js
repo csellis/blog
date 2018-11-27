@@ -2,17 +2,19 @@ module.exports = {
   siteMetadata: {
     title: 'Level Up Blog',
     description: 'A new blog!',
+    siteUrl: 'https://goofy-wozniak-14a4bc.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Try Not to Lose',
+        short_name: 'TNtL',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -36,6 +38,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify'
   ],
 }
