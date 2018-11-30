@@ -15,8 +15,13 @@ const MainLayout = styled.main`
   max-width: 90%;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 3fr 1fr
   grid-gap: 40px;
+
+  @media (min-width: 700px) {
+    max-width: 960px;
+    grid-template-columns: 3fr 1fr;
+    margin: 30px;
+  }
 `;
 
 const Layout = ({ children, location }) => (

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
 
-import logo from '../images/logo.svg'
+import logo from '../images/TNtL.svg'
 
 const HeaderWrapper = styled.div`
   background: #524763;
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           <img style={{
-            width: '100px'
+            height: '40px'
           }} src={logo} alt='Logo' />
         </Link>
       </h1>
