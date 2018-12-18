@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Level Up Blog',
+    title: 'Try Not to Lose',
     description: 'A new blog!',
     siteUrl: 'https://goofy-wozniak-14a4bc.netlify.com'
   },
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/blog`,
         name: 'posts'
       }
     },

@@ -15,3 +15,12 @@ collections:
     fields:
       - { label: 'Team Member', name: 'title', widget: 'string' }
       - { label: 'Bio', name: 'bio', widget: 'markdown' }
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: slug, label: Slug }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }

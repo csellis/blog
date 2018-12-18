@@ -1,5 +1,5 @@
 ---
-path: hello-world
+slug: /hello-world
 date: 2018-11-27T08:20:31.500Z
 title: Hello World
 ---
